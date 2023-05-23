@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>留言板</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <img src="images/header.jpeg" style="height: 400px; width: 1000px;">
+    </div>
+
+    <div class="nav">
+      <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="jingli.html">比赛经历</a></li>
+      <li><a href="shijian.html">志愿活动及获得奖项</a></li>
+      <li><a href="jianli.html">个人简历</a></li>
+      <li><a href="liuyanban.html">留言板</a></li>
+      </ul>
+      </div>
+
+    <div class="content">
+      <div class="left">
+        <aside>
+          <img src="images/2.jpg" style="margin-left:15px; margin-top:20px; width: 270px; height: 348px; "> 
+        <h3><strong>姓名：</strong>谢航炜 <br>
+          <strong>出生地：</strong>福建省福州市长乐区 <br>
+          <strong>国籍：</strong>中国 <br>
+          <strong>民族：</strong>汉族 <br>
+          <strong>出生日期：</strong>2003年<br> 
+          <strong>社会身份：</strong>学生 <br>
+          <strong>性别：</strong>男 </h3>
+        </aside>
+      </div>
+
+      <div class="right">
+        <h2>留言板</h2>
+        <form action="submit.php" method="post">
+          <label for="name">姓名：</label><br>
+          <input type="text" id="name" name="name" required style="font-size: 15px;padding: 10px ;"><br><br>
+          
+          <label for="sex">性别：</label><br>
+          <input type="radio" id="sex" name="sex" value="male" >男<br><br>
+          <input type="radio" id="sex" name="sex" value="female">女<br><br>
+          
+          <label for="email">邮箱：</label><br>
+          <input type="email" id="email" name="email" required style="font-size: 15px;padding: 10px ; "><br><br>
+          
+          <label for="message">留言：</label><br>
+          <textarea id="message" name="message" rows="6" cols="50" required style="font-size: 18px; padding: 10px;"></textarea><br><br>
+          
+          <input type="submit" value="提交" style="font-size: 20px; padding: 10px 20px; background-color: #9598a3; color: #fff; border: none; cursor: pointer;">
+        </form>
+      </div>
+    </div>
+
+    <div class="clearit"></div>
+
+    <div class="foot">
+      <h3>欢迎来到我的个人网页</h3>
+    </div>
+  </div>
+</body>
+</html>

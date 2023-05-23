@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;}
+body {	font-family: "宋体";font-size: 12px;color:#000000;line-height: 20px;text-align:left; background:#f3f3f3;}
+td,th {font-family: "宋体";font-size: 12px;color: #000000;}
+a {color: #fff;} 
+A:link {TEXT-DECORATION: none;}
+A:visited {TEXT-DECORATION: none;}
+A:hover {TEXT-DECORATION: underline;color: #ffffff;}
+ul,li{list-style-type:none;}
+.clearit{clear:both;}
+
+.header{
+	width: 1000px;
+}
+
+.wrapper{width:1000px; 
+         margin:0 auto;
+		 background:#FFF;
+		 padding:0 16px;
+		 overflow:hidden;}
+		 
+.nav{width:1000px; 
+     height:36px; 
+	 background:#9598a3;
+	 font-size:14px;}
+	 
+.nav li{width:200px; 
+        text-align:center; 
+		line-height:36px; 
+		float:left;}
+		
+.nav li a:hover{color:#F60;}
+
+.content{width:1000px;
+         margin-top:20px;}
+
+.left{width:300px;
+      float:left;
+	  border:solid #666 1px;}
+
+.left h3{font-size:12px;
+         font-weight:normal;
+		 margin:10px 40px;
+		 line-height:30px;}
+		 
+.right{width:690px;
+       float:right;}
+
+.right h2{line-height:30px;
+          background:#9598a3;
+		  color:#FFF;
+		  text-indent:2em;
+		  margin:0 10px;}
+
+.right h3{font-size:12px;
+          margin:10px 16px;
+		  line-height:34px;
+		  font-weight:normal;}
+
+.foot{width:1000px;
+      margin-top:16px;
+	  background:#9598a3;}
+
+.foot h3{font-size:12px;
+         font-weight:normal;
+		 line-height:36px;
+		 text-align:center;
+		 color:#FFF;}
+		 
+.main h3{font-size:12px;
+         font-weight:normal;
+		 line-height:30px;
+		 margin:10px 20px;}
+
+.main h2{line-height:30px;
+         background:#9598a3;
+		 color:#FFF;
+		 text-indent:2em;
+		 margin:0 10px;}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1;
+}
+
+th, td {
+  border: 2px solid #000;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #9598a3;
+  color: #fff;
+}
+label{
+	line-height:50px;
+    background:#9598a3;
+	color:#FFF;
+	text-indent:2em;
+	margin:0 10px;
+	padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
